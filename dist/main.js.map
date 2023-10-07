@@ -1,0 +1,1 @@
+{"version":3,"file":"main.js","mappings":"AACIA,QAAQC,IAAI,SAADC,OAGN","sources":["webpack:///./js/index.ts"],"sourcesContent":["const sayHello = (name: string) => {\n    console.log(`Hello ${name}`);\n}\n\nsayHello('World');\n"],"names":["console","log","concat"],"sourceRoot":""}
