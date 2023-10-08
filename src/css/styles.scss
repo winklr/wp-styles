@@ -1,9 +1,9 @@
-$background-color: #fff;
-
-body {
-  background-color: $background-color;
-}
+$background-color: red;
 
 :root {
-  --background-color: #{$background-color};
+  --wsc-body-background-color: #{$background-color};
+}
+
+body.plugin-wsc {
+  background-color: var(--wsc-body-background-color, #{$background-color})
 }
